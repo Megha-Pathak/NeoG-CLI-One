@@ -37,7 +37,6 @@ function checkAnswers(data, res) {
     score++;
     console.log("Correct!✅\n Your current Score is\t" + score);
   } else {
-    score--;
     console.log("Wrong!⛔\n Your current Score is\t" + score);
   }
 }
